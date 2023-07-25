@@ -12,6 +12,7 @@
     height: 40px;
     width: 100%;
     border-bottom: 2px solid black;
+    position: relative;
     
 }
 .bloc1 ul li a {
@@ -20,4 +21,11 @@
 }
 .content {
     margin-top: 10px;
+    position: absolute;
+}
+.bloc1::after {
+    content: "";
+    display: block;
+    background: blue;
+    transform: scale(0);
 }
