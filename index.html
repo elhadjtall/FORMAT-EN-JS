@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page JavaScript Cliquable</title>
+    
+</head>
+<body>
+    <h1>Exemple de page JavaScript Cliquable</h1>
+    <!-- Créez une liste de noms avec des liens -->
+    <div class="bloc1">
+    <ul>
+        <li><a href="#" onclick="showContent('contenu1')">OVERWIEW</a></li>
+        <li><a href="#" onclick="showContent('contenu2')">API</a></li>
+        <li><a href="#" onclick="showContent('contenu3')">EXAMPLES</a></li>
+    </ul>
+    </div>
+    <!-- Div pour afficher le contenu lors du clic -->
+    <div class="content" id="contenu1">
+        <h2>Contenu 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique modi amet, debitis facere fuga nobis a, cupiditate, aspernatur ab magnam pariatur distinctio doloremque! Maxime soluta commodi unde tempora nobis neque.</p>
+    </div>
+    <div class="content" id="contenu2">
+        <h2>Contenu 2</h2>
+        <p>Le contenu de la deuxième option.</p>
+    </div>
+    <div class="content" id="contenu3">
+        <h2>Contenu 3</h2>
+        <p>Le contenu de la troisième option.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
